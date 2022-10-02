@@ -122,7 +122,7 @@ function deleteFlag(square) {
 }
 
 function checkForWin(cellsVisited) {
-    if(cellsVisited == 81 - 10 && gameRunning == 1) {
+    if(cellsVisited == 81 - 10 && gameRunning != 1) {
         displayWinningMessage();
     }
 }
